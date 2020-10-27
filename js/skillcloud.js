@@ -16,13 +16,14 @@ function makeSkillCloud() {
         {word: 'JavaScript', weight: 30, color: '#33b5e5'},
         {word: 'jQuery', weight: 30, color: '#33b5e5'},
         {word: 'Ajax', weight: 30, color: '#33b5e5'},
-        {word: 'PHP', weight: 17, color: '#33b5e5'},
-        {word: 'CodeIgniter', weight: 45, color: "#33b5e5"},
-        {word: 'Laravel', weight: 20, color: '#33b5e5'},
+        {word: 'PHP', weight: 25, color: '#33b5e5'},
+        {word: 'CodeIgniter', weight: 40, color: "#33b5e5"},
+        {word: 'Laravel', weight: 55, color: '#33b5e5'},
         {word: 'MySQL', weight: 30, color: '#33b5e5'},
         {word: 'Oracle', weight: 20, color: '#33b5e5'},
         {word: 'Git', weight: 20, color: '#33b5e5'},
-        {word: 'Vagrant', weight: 20, color: '#33b5e5'},
+        {word: 'Vagrant', weight: 15, color: '#33b5e5'},
+        {word: 'Docker', weight: 20, color: '#33b5e5'},
 
         /*Secondary Skills*/
         {word: 'Inkscape', weight: 11, color: '#33b5e5'},
@@ -71,8 +72,8 @@ function makeSkillCloud() {
         },
         word_click: function () {
 //            alert("You have selected:" + $(this).text());
-            $("#skillModalLabel").html($(this).text());
-            $('#skillModal').modal('show');
+            //$("#skillModalLabel").html($(this).text());
+            //$('#skillModal').modal('show');
         },
         beforeCloudRender: function () {
 //            date1 = new Date();

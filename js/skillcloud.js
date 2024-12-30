@@ -17,22 +17,28 @@ function makeSkillCloud() {
         {word: 'jQuery', weight: 30, color: '#33b5e5'},
         {word: 'Ajax', weight: 30, color: '#33b5e5'},
         {word: 'PHP', weight: 25, color: '#33b5e5'},
-        {word: 'CodeIgniter', weight: 40, color: "#33b5e5"},
+        {word: 'CodeIgniter', weight: 35, color: "#33b5e5"},
         {word: 'Laravel', weight: 55, color: '#33b5e5'},
         {word: 'MySQL', weight: 30, color: '#33b5e5'},
         {word: 'Oracle', weight: 20, color: '#33b5e5'},
         {word: 'Git', weight: 20, color: '#33b5e5'},
         {word: 'Vagrant', weight: 15, color: '#33b5e5'},
         {word: 'Docker', weight: 20, color: '#33b5e5'},
+        {word: 'Flutter', weight: 40, color: '#33b5e5'},
+        {word: 'Dirt', weight: 25, color: '#33b5e5'},
 
         /*Secondary Skills*/
         {word: 'Inkscape', weight: 11, color: '#33b5e5'},
         {word: 'SVG', weight: 11, color: '#33b5e5'},
+        {word: 'onshape', weight: 12, color: '#33b5e5'},
+        {word: '3dPrinting', weight: 15, color: '#33b5e5'},
 
         /*Extras*/
-        {word: 'Drupal', weight: 12, color: '#33b5e5'},
-        {word: 'VirtualBox', weight: 20, color: '#33b5e5'}
-
+        {word: 'VirtualBox', weight: 20, color: '#33b5e5'},
+        {word: 'Wordpress', weight: 15, color: '#33b5e5'},
+        {word: 'Magento', weight: 5, color: '#33b5e5'},
+        {word: 'Opencart', weight: 10, color: '#33b5e5'},
+        {word: 'Prestashop', weight: 10, color: '#33b5e5'}
     ];
 
     var tnt = $("body").data('tint');
